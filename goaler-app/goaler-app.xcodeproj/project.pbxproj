@@ -14,6 +14,10 @@
 		045C651423BDF3B10082B270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045C651323BDF3B10082B270 /* Assets.xcassets */; };
 		045C651723BDF3B10082B270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045C651623BDF3B10082B270 /* Preview Assets.xcassets */; };
 		045C651A23BDF3B10082B270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045C651823BDF3B10082B270 /* LaunchScreen.storyboard */; };
+		045C652223BE026E0082B270 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045C652123BE026E0082B270 /* StartViewController.xib */; };
+		045C652423BE028C0082B270 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C652323BE028C0082B270 /* LoginViewController.swift */; };
+		045C652623BE02AB0082B270 /* SrartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C652523BE02AB0082B270 /* SrartViewController.swift */; };
+		045C652823BE02CC0082B270 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C652723BE02CC0082B270 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		045C651623BDF3B10082B270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		045C651923BDF3B10082B270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045C651B23BDF3B10082B270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045C652123BE026E0082B270 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		045C652323BE028C0082B270 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		045C652523BE02AB0082B270 /* SrartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrartViewController.swift; sourceTree = "<group>"; };
+		045C652723BE02CC0082B270 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				045C651123BDF3AA0082B270 /* ContentView.swift */,
 				045C651323BDF3B10082B270 /* Assets.xcassets */,
 				045C651823BDF3B10082B270 /* LaunchScreen.storyboard */,
+				045C652123BE026E0082B270 /* StartViewController.xib */,
+				045C652323BE028C0082B270 /* LoginViewController.swift */,
+				045C652523BE02AB0082B270 /* SrartViewController.swift */,
+				045C652723BE02CC0082B270 /* SignUpViewController.swift */,
 				045C651B23BDF3B10082B270 /* Info.plist */,
 				045C650E23BDF3AA0082B270 /* goaler_app.xcdatamodeld */,
 				045C651523BDF3B10082B270 /* Preview Content */,
@@ -137,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				045C651A23BDF3B10082B270 /* LaunchScreen.storyboard in Resources */,
+				045C652223BE026E0082B270 /* StartViewController.xib in Resources */,
 				045C651723BDF3B10082B270 /* Preview Assets.xcassets in Resources */,
 				045C651423BDF3B10082B270 /* Assets.xcassets in Resources */,
 			);
@@ -150,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				045C650B23BDF3AA0082B270 /* AppDelegate.swift in Sources */,
+				045C652823BE02CC0082B270 /* SignUpViewController.swift in Sources */,
+				045C652623BE02AB0082B270 /* SrartViewController.swift in Sources */,
 				045C651023BDF3AA0082B270 /* goaler_app.xcdatamodeld in Sources */,
 				045C651223BDF3AA0082B270 /* ContentView.swift in Sources */,
+				045C652423BE028C0082B270 /* LoginViewController.swift in Sources */,
 				045C650D23BDF3AA0082B270 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
